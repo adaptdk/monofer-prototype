@@ -1,0 +1,16 @@
+/* Welcome to Compass. Use this file to define print styles. Import this file using the following HTML or equivalent: <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+* { -webkit-print-color-adjust: exact; -moz-print-color-adjust: exact; print-color-adjust: exact; }
+
+body { background: none !important; }
+
+.tabs, .menu, .results { display: none; }
+
+.content, .content .inner { background: none !important; padding: 0px; border: none; filter: none; }
+
+@-moz-document url-prefix() { .result-box, .calc-row .form-text, .patient-box .form-text { border: 1px #000 solid !important; } }
+
+.result-box, .calc-row .form-text, .patient-box .form-text { border: 1px #000 solid\9 !important; }
+
+.print { display: none !important; }
+
+.logo img, .logo2 img { display: block; }

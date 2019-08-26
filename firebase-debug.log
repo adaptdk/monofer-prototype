@@ -1,0 +1,24 @@
+[debug] [2019-08-07T12:03:14.252Z] ----------------------------------------------------------------------
+[debug] [2019-08-07T12:03:14.254Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-08-07T12:03:14.254Z] CLI Version:   7.2.2
+[debug] [2019-08-07T12:03:14.254Z] Platform:      darwin
+[debug] [2019-08-07T12:03:14.254Z] Node Version:  v8.9.4
+[debug] [2019-08-07T12:03:14.255Z] Time:          Wed Aug 07 2019 14:03:14 GMT+0200 (CEST)
+[debug] [2019-08-07T12:03:14.255Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-07T12:03:14.267Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-07T12:03:14.267Z] > authorizing via signed-in user
+[debug] [2019-08-07T12:03:14.267Z] [iam] checking project monofer-test for permissions ["firebase.projects.get"]
+[debug] [2019-08-07T12:03:14.270Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/monofer-test:testIamPermissions  
+
+[debug] [2019-08-07T12:03:15.123Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-07T12:03:15.125Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/monofer-test  
+ 
+[debug] [2019-08-07T12:03:15.476Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/mfaarkrog/Dropbox/business/adapt/pharmacosmos-monofer/v.3'...
+[info] 
+[debug] [2019-08-07T12:03:15.478Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/monofer-test/webApps/-/config  
+ 
+[debug] [2019-08-07T12:03:15.887Z] <<< HTTP RESPONSE 200
+[info] ✔  hosting: Local server: http://localhost:5000
